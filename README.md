@@ -106,10 +106,20 @@
 
 <details>
 <summary>In general, what do you need in order to communicate?</summary><br><b>
+To communicate, you need:
 
-  - A common language (for the two ends to understand)
-  - A way to address who do you want to communicate with
-  - A Connection (so the content of the communication can reach the recipients)
+Protocols: Communication relies on a set of rules (protocols) that govern how data is transmitted and received. Examples of common protocols are TCP/IP, HTTP, and FTP.
+
+The OSI Model: Communication is often explained through the OSI (Open Systems Interconnection) Model, which describes 7 layers, each responsible for specific aspects of data transmission:
+- Physical (Layer 1): Responsible for transmitting raw bits over a physical medium (e.g., cables, radio waves).
+- Data Link (Layer 2): Ensures reliable transmission within a local network, handling MAC addresses.
+- Network (Layer 3): Manages routing and forwarding of data between different networks (e.g., IP addressing).
+- Transport (Layer 4): Ensures complete data transfer and error checking (e.g., TCP).
+- Session (Layer 5): Establishes, maintains, and ends communication sessions between devices.
+- Presentation (Layer 6): Deals with data formatting and encryption to ensure data is properly presented to the application layer.
+- Application (Layer 7): Provides network services directly to the user (e.g., HTTP for web browsing).
+
+Layer 1 (Physical) is the lowest level, dealing with the hardware and transmission media, while Layer 7 (Application) is the highest level, providing direct services to users.
 
 </b></details>
 
