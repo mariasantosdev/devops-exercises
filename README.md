@@ -147,8 +147,7 @@ When a device sends a packet to the broadcast MAC address (FF:FF:FF:FF:FF:FF​)
 
 <details>
 <summary>What is an IP address?</summary><br><b>
-
-An Internet Protocol address (IP address) is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.An IP address serves two main functions: host or network interface identification and location addressing.
+An IP address is a unique identifier assigned to each device connected to a network, including the internet. It serves two main purposes: identifying the host or device and providing its location in the network, allowing devices to communicate with each other.
 </b></details>
 
 <details>
